@@ -7,6 +7,8 @@ import Products from './components/Shop/Products';
 import Notification from './components/UI/Notification';
 import { sendCartData, fetchCartData } from './store/cart-actions';
 
+// Installed Redux DevTools browser extension - Use for debugging
+
 let isInitial = true;
 
 function App() {
